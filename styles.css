@@ -2,7 +2,7 @@
     background-image: url("pictures/background.jpg");
     background-size: cover;
     display: flex;
-    /* width:100vw; */
+    width:100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -45,13 +45,17 @@
   }
   
   button {
-    width: 99%;
+    width: 60%;
     padding: 10px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 50px;
     cursor: pointer;
+  }
+  #bttn:hover {
+    /* background-color: #979997; */
+    transform: scale(1.1);
   }
   .star {
     width: 100px;
